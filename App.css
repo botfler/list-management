@@ -1,0 +1,83 @@
+/* Container styling */
+.container {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(245, 2, 2);
+  }
+  
+  /* Table styling */
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .table thead.table-dark {
+    background-color: #007efd;
+    color: #ffffff;
+  }
+  
+  .table th,
+  .table td {
+    padding: 12px;
+    border: 1px solid #000000;
+  }
+  
+  .table tbody tr:nth-child(even) {
+    background-color: #000000;
+  }
+  
+  .table-hover tbody tr:hover {
+    background-color: #c81313;
+    cursor: pointer;
+  }
+  
+  /* Header styling */
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #000000;
+  }
+  
+  /* Loading and error messages styling */
+  .loading,
+  .error {
+    font-size: 18px;
+    color: #0088ff;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .no-data {
+    font-size: 18px;
+    color: #dc3545;
+    text-align: center;
+    margin-top: 20px;
+  }
+  /* Completed column styling */
+.table td.completed-yes {
+    color: #28a745; /* Green color for completed tasks */
+    font-weight: bold;
+    justify-content: center;
+  }
+  
+  .table td.completed-no {
+    color: #dc3545; /* Red color for incomplete tasks */
+    font-weight: bold;
+    justify-content: center;
+  }
+  
+ /* Center the <h2> element */
+/* Styles for the <h2> element */
+.hello {
+  text-align: center;  /* Center the text horizontally */
+  margin-top: 20px;    /* Add some space above the heading */
+  font-size: 2rem;     /* Adjust the font size */
+  color: #333;         /* Set the text color */
+  font-weight: bold;   /* Make the font bold */
+  text-transform: uppercase;  /* Convert text to uppercase */
+  padding: 10px;       /* Add padding around the text */
+  border-bottom: 2px solid #ccc; /* Add a border below the heading */
+}

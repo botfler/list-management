@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.hello {
+  text-align: center;  /* Center the text horizontally */
+  margin-top: 20px;    /* Add some space above the heading */
+  font-size: 2rem;     /* Adjust the font size */
+  color: #333;         /* Set the text color */
+  font-weight: bold;   /* Make the font bold */
+  text-transform: uppercase;  /* Convert text to uppercase */
+  padding: 10px;       /* Add padding around the text */
+  border-bottom: 2px solid #ccc; /* Add a border below the heading */
+}
